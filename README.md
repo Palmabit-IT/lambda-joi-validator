@@ -3,6 +3,7 @@
 ## Install
 
 ```bash
+npm install joi
 npm install @palmabit/lambda-joi-validator
 ```
 
