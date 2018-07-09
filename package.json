@@ -1,0 +1,28 @@
+{
+  "name": "@palmabit/lambda-joi-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Palmabit",
+  "license": "ISC",
+  "peerDependencies": {
+    "joi": "*"
+  },
+  "devDependencies": {
+    "jest": "^23.3.0",
+    "joi": "*"
+  },
+  "keywords": [
+    "AWS",
+    "lambda",
+    "Joi",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Palmabit-IT/lambda-joi-validator.git"
+  }
+}
