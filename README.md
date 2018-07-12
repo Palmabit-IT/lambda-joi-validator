@@ -1,4 +1,4 @@
-# Lamda Joi Validator
+# Lambda Joi Validator
 
 ## Install
 
