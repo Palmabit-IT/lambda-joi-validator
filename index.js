@@ -4,17 +4,24 @@ const Joi = require('joi')
 
 const compileValue = (event, schema) => {
   const value = {}
-  if (schema.query){
+
+  if (schema.query) {
     value.query = event.queryStringParameters || {}
   }
-  if (schema.body){
+
+  if (schema.body) {
     value.body = event.body || {}
   }
+
+  if (schema.headers) {
+    value.headers = event.headers || {}
+  }
+
   return value
 }
 
 class LambdaJoiValidation {
-  constructor(schema, options){
+  constructor(schema, options) {
     this.schema = schema
     this.options = options
   }

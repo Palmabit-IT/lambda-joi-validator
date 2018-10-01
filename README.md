@@ -38,7 +38,7 @@ module.exports.handler = (event, context, callback) => {
 
 ## Schema
 
-You can define query and body schemas validator:
+You can define query, body and/or headers schemas validator:
 
 ```javascript
 const schema = {
@@ -47,6 +47,9 @@ const schema = {
   }),
   body: Joi.object().keys({
     bar: Joi.number()
+  }),
+  headers: Joi.object().keys({
+    foobar: Joi.string()
   })
 }
 ```

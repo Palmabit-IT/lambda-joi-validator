@@ -48,4 +48,20 @@ describe('Lambda Joi Validator', () => {
     return lambdaJoiValidator.validate(event)
   })
 
+  test('should validate headers', () => {
+    const schema = {
+      headers: Joi.object().keys({
+        foo: Joi.string(),
+        bar: Joi.number()
+      })
+    }
+    const event = {
+      headers: {
+        foo: 'foo',
+        bar: '100',
+      }
+    }
+    const lambdaJoiValidator = new LambdaJoiValidator(schema)
+    return lambdaJoiValidator.validate(event)
+  })
 })
