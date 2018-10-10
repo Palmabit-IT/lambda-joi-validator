@@ -64,4 +64,25 @@ describe('Lambda Joi Validator', () => {
     const lambdaJoiValidator = new LambdaJoiValidator(schema)
     return lambdaJoiValidator.validate(event)
   })
+
+  test('should return statusCode 400 if invalid', async () => {
+    const schema = {
+      headers: Joi.object().keys({
+        foo: Joi.string(),
+        bar: Joi.number()
+      })
+    }
+    const event = {
+      headers: {
+        foo: {},
+        bar: '100',
+      }
+    }
+    const lambdaJoiValidator = new LambdaJoiValidator(schema)
+    try {
+      await lambdaJoiValidator.validate(event)
+    } catch (error) {
+      expect(error.statusCode).toBe(400)
+    }
+  })
 })

@@ -31,6 +31,10 @@ class LambdaJoiValidation {
     const joiOptions = options || this.options || {}
 
     return Joi.validate(value, this.schema, joiOptions)
+      .catch(error => {
+        error.statusCode = 400
+        throw error
+      })
   }
 }
 
