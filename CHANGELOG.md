@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2018-11-02
+
+### Security
+
+- Update dependencies
+
 ## [1.1.1] - 2018-10-10
 
 ### Added
@@ -14,5 +20,6 @@ All notable changes to this project will be documented in this file.
 
 - Headers validation
 
+[1.1.2]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.2
 [1.1.1]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.1
 [1.1.0]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.0
