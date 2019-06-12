@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Updated
+
+- joi@14.3.1
+
 ### Security
 
 - fix jest vulnerabilities
