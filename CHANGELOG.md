@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Security
+
+- fix jest vulnerabilities
+
 ## [1.1.2] - 2018-11-02
 
 ### Security
@@ -20,6 +26,7 @@ All notable changes to this project will be documented in this file.
 
 - Headers validation
 
+[Unreleased]: https://github.com/Palmabit-IT/lambda-joi-validator
 [1.1.2]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.2
 [1.1.1]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.1
 [1.1.0]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.0
