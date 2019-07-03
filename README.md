@@ -3,14 +3,14 @@
 ## Install
 
 ```bash
-npm install joi
+npm install @hapi/joi
 npm install @palmabit/lambda-joi-validator
 ```
 
 ## Usage
 
 ```javascript
-const Joi = require('joi')
+const Joi = require('@hapi/joi')
 const LambdaJoiValidator = require('@palmabit/lambda-joi-validator')
 const schema = {
   query: Joi.object().keys({

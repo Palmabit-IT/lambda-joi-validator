@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Update
+
+- @hapi/joi@15.1.0
+
 ## [1.1.3] - 2019-06-12
 
 ### Updated

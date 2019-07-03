@@ -1,6 +1,6 @@
 'use strict'
 
-const Joi = require('joi')
+const Joi = require('@hapi/joi')
 const LambdaJoiValidator = require('../index')
 
 describe('Lambda Joi Validator', () => {
