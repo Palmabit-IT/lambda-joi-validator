@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.2.0] - 2019-07-03
 
 ### Update
 
@@ -37,6 +37,7 @@ All notable changes to this project will be documented in this file.
 - Headers validation
 
 [Unreleased]: https://github.com/Palmabit-IT/lambda-joi-validator
+[1.2.0]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.2.0
 [1.1.3]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.3
 [1.1.2]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.2
 [1.1.1]: https://github.com/Palmabit-IT/lambda-joi-validator/tree/1.1.1
