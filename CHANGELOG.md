@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+
+- joi is now a dependence
+
 ## [1.2.0] - 2019-07-03
 
 ### Update

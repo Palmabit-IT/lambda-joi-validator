@@ -8,11 +8,10 @@
   },
   "author": "Palmabit",
   "license": "ISC",
-  "peerDependencies": {
-    "@hapi/joi": "*"
+  "dependencies": {
+    "@hapi/joi": "^15.1.0"
   },
   "devDependencies": {
-    "@hapi/joi": "^15.1.0",
     "jest": "^24.8.0"
   },
   "keywords": [
