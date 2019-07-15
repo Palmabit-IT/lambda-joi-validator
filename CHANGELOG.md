@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - joi is now a dependence
 
+### Security
+
+- update lodash@4.17.14
+
 ## [1.2.0] - 2019-07-03
 
 ### Update
